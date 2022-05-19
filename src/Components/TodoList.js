@@ -6,7 +6,7 @@ const TodoList = ({todos}) => {
       <ul className="todo-list"></ul>
       {
           todos.map((todo) => (
-              <Todo />
+              <Todo text={todo.text}/>
           ))
       }
     </div>
