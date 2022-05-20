@@ -3,7 +3,7 @@ import React from "react";
 const Todo = ({text}) => {
   return (
     <div className="todo">
-      <ul className="todo-item">{text}</ul>
+      <li className="todo-item">{text}</li> 
       <button className="complete-btn">
         <i className="fas fa-check"></i>
       </button>
@@ -13,5 +13,4 @@ const Todo = ({text}) => {
     </div>
   );
 };
-
 export default Todo;
