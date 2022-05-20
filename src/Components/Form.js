@@ -12,7 +12,7 @@ const Form =({setInputText,todos,setTodos,inputText}) =>
     e.preventDefault();
     setTodos([ 
       ...todos,
-      {text: inputText,id: Math.random()}
+      {text: inputText,completed:false,id: Math.random()}
     ]);
     setInputText(""); 
   }
