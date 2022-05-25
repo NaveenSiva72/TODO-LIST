@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 body {
-  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 71%, #FFCC70 100%);
+
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
@@ -28,8 +30,8 @@ form button {
   background: white;
 }
 form button {
-  color: #ff6f47;
-  background: #f7fffe;
+  color: #191916;
+  background: #c2d912;
   cursor: pointer;
   transition: all 0.3s ease;
 }
